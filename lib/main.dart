@@ -12,7 +12,7 @@ void main() async {
   // BƯỚC QUAN TRỌNG: Chờ load trạng thái theme ban đầu từ SharedPreferences
   bool initialThemeIsDark = await ThemeProvider.loadInitialTheme();
 
-  // Chạy ứng dụng, bọc với ChangeNotifierProvider
+  // Chạy ứng dụng, bọc với ChangeNotifierProvider sssss
   runApp(
     // Sử dụng ChangeNotifierProvider để cung cấp ThemeProvider cho toàn bộ cây Widget
     ChangeNotifierProvider(
