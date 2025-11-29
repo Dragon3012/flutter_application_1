@@ -6,7 +6,7 @@ class AppTheme {
   static const Color primaryColor = Color(0xFF6200EE);
   static const Color accentColor = Color(0xFF03DAC6);
 
-  // Khai báo một Border Shape cố định (Đã sửa từ const thành final)
+  // Khai báo một Border Shape cố định (Đã sửa từ const thành final)adsadad hehe
   static final RoundedRectangleBorder _cardShape = RoundedRectangleBorder(
     borderRadius: BorderRadius.circular(16),
   );
